@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@media (min-width: 471px) and (max-width: 90000px) {
+  .notsupported{
+    display: block;
+  }
+  .orientation-msg{
+    display: none;
+  }
+  .bodyy{
+    background-color:rgb(49, 49, 49);
+  }
+
+
+}
+
+@media (min-width:1px) and (max-width: 470px) {
+  .notsupported{
+    display: none;
+    z-index: 100;
+  }
+  .orientation-msg{
+    display: block;
+    position: fixed;
+    top:33%;
+    left:15%;
+    z-index: 1000;
+  }
+
+
+  .bodyy{
+    background-color: rgb(49, 49, 49);
+  }
+
+
+
+
+
+
+}
